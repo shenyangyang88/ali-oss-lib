@@ -1,0 +1,32 @@
+{
+  "name": "ali-oss-lib",
+  "version": "1.0.0",
+  "description": "ali oss lib.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx babel src/ --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenyangyang88/ali-oss-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shenyangyang88/ali-oss-lib/issues"
+  },
+  "homepage": "https://github.com/shenyangyang88/ali-oss-lib#readme",
+  "keywords": [
+    "ali-oss"
+  ],
+  "author": "yanyuanyuan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.8"
+  },
+  "dependencies": {
+    "ali-oss": "^6.16.0",
+    "spark-md5": "^3.0.2"
+  }
+}

@@ -1,0 +1,4 @@
+examples/dist/
+lib/
+node_modules/
+.npmignore
